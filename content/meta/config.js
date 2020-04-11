@@ -1,23 +1,24 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
+  siteTitle: "la7blog", // <title>
+  shortSiteTitle: "la7Blog", // <title> ending for posts and pages
+  siteDescription: "LA7digitalBlog.",
   siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Ilona Danilova",
+  authorTwitterAccount: "nonshark",
 
-  /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  /* TODO:info */
+
+  headerTitle: "Ilona Danilova",
+  headerSubTitle: "presents medium marketing",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "la7digital",
+  manifestShortName: "la7", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -27,8 +28,8 @@ module.exports = {
   // Use your Gravatar image. If empty then will use src/images/jpg/avatar.jpg
   // Replace your email adress with md5-code.
   // Example https://www.gravatar.com/avatar/g.strainovic@gmail.com ->
-  // gravatarImgMd5: "https://www.gravatar.com/avatar/1db853e4df386e8f699e4b35505dd8c6",
-  gravatarImgMd5: "",
+  // gravatarImgMd5: "https://www.gravatar.com/avatar/df6f76d4878670f5183ba35686bd5255",
+  gravatarImgMd5: "https://www.gravatar.com/avatar/df6f76d4878670f5183ba35686bd5255",
 
   // social
   authorSocialLinks: [
