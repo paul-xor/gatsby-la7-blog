@@ -68,3 +68,6 @@ yarn-error.log
 
 # other
 report/
+
+# Local Netlify folder
+.netlify
