@@ -15,6 +15,10 @@ class Menu extends React.Component {
     super(props);
     this.itemList = React.createRef();
 
+    /*
+      TODO: menu pages items is here.
+      code parce folder >> content/pages ... 1--about ...
+    */
     const pages = props.pages.map(page => ({
       to: page.node.fields.slug,
       label: page.node.frontmatter.menuTitle
@@ -22,10 +26,11 @@ class Menu extends React.Component {
         : page.node.frontmatter.title
     }));
 
+    // TODO: menu items is here:
     this.items = [
       { to: "/", label: "Home", icon: FaHome },
-      { to: "/category/", label: "Categories", icon: FaTag },
-      { to: "/search/", label: "Search", icon: FaSearch },
+      // { to: "/category/", label: "Categories", icon: FaTag },
+      // { to: "/search/", label: "Search", icon: FaSearch },
       ...pages,
       { to: "/contact/", label: "Contact", icon: FaEnvelope }
     ];
